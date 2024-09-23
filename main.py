@@ -20,8 +20,8 @@ target_x = random.randint(0, SCREEN_WIDTH - target_width)
 target_y = random.randint(0, SCREEN_HEIGHT - target_height)
 
 # Скорость мишени по осям
-target_speed_x = random.choice([-2, -1, 1, 2])
-target_speed_y = random.choice([-2, -1, 1, 2])
+target_speed_x = random.choice([-1, 1])
+target_speed_y = random.choice([-1, 1])
 
 # Случайный цвет фона
 color = (random.randint(0, 255), random.randint(0, 255), random.randint(0, 255))
